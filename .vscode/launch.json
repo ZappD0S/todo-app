@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "vuejs: chromium",
+      "runtimeExecutable": "C:/Users/zapp/scoop/apps/ungoogled-chromium/current/chrome.exe",
+      "userDataDir": true,
+      "url": "http://localhost:5173/",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "start server",
+      "postDebugTask": "stop server"
+    }
+  ]
+}
